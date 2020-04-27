@@ -22,6 +22,7 @@ a {
 
 #languages {
 	float: right;
+	display: none;
 }
 
 #languages a {
