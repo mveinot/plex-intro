@@ -26,7 +26,8 @@ a:hover {
 }
 
 p {
-	padding-left: 20px;
+	padding: 0px 20px 0px 20px;
+	margin: 12px 0;
 }
 
 h3 {
