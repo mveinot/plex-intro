@@ -56,10 +56,11 @@ p.h3 {
 }
 
 #container {
-	width: 100%;
+	max-width: 1000px;
 	overflow-x: hidden;
 	background-color: #222222;
 	padding-bottom: 50px;
+	margin: 0 auto;
 }
 
 #content {
