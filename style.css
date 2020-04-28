@@ -59,8 +59,8 @@ p.h3 {
 	max-width: 1000px;
 	overflow-x: hidden;
 	background-color: #222222;
-	padding-bottom: 50px;
-	margin: 0 auto;
+	padding-bottom: 20px;
+	margin: 0 auto 50px auto;
 }
 
 #content {
