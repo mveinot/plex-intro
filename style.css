@@ -60,6 +60,8 @@ p.h3 {
 	color: #444;
 	font-size: 10pt;
 	font-style: italic;
+	padding: 0;
+	margin: 5px;
 }
 
 #logo_container p a {
