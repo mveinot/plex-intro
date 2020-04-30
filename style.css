@@ -2,17 +2,29 @@ body {
 	background-color: black;
 	color: #ddd;
 	font-family: verdana, tahoma, arial, helvetica;
+	font-size: 12pt;
 }
 
-@media screen and (min-width: 1126px) {
-	body {
-		font-size: 14pt;
+@media (min-width: 1000px) {
+	#container {
+		max-width: 60%;
 	}
 }
 
-@media screen and (max-width: 1125px) {
+@media
+	(-webkit-min-device-pizel-ratio: 2),
+	(min-resolution: 192dpi) {
+
 	body {
-		font-size: 18pt;
+		font-size: 10pt;
+	}
+	
+	img {
+		display: none;
+	}
+
+	#container {
+		width: 100%;
 	}
 }
 
@@ -47,7 +59,9 @@ p.h3 {
 	padding-left: 40px;
 }
 
-#logo {
+img {
+	max-width: 30%;
+	height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -69,7 +83,6 @@ p.h3 {
 }
 
 #container {
-	max-width: 1000px;
 	overflow-x: hidden;
 	background-color: #222222;
 	padding-bottom: 20px;
